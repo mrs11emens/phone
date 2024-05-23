@@ -5,8 +5,7 @@ import (
 )
 
 func TestPhone(t *testing.T) {
-	var v string
-	v = "79121115200"
+	v := "79121115200"
 	expectedPhone := "7 (912) 111-52-00"
 
 	// Создаем экземпляр структуры Phone с помощью функции NewPhone
